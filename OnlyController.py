@@ -88,7 +88,7 @@ def update_virtual_cursor_position(joystick, mouse):
 
         # Map joystick input to virtual mouse movement
         move_x = x_axis * sensitivity
-        move_y = y_axis * sensitivity  # Y-axis is often inverted
+        move_y = y_axis * sensitivity
 
         # Update virtual mouse position
         virtual_x += move_x

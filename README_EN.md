@@ -17,14 +17,13 @@
 <!-- markdownlint-restore -->
 [简体中文](https://github.com/YohaneMashiro/OnlyController/blob/main/README.md) | [English](https://github.com/YohaneMashiro/OnlyController/blob/main/README_EN.md)
 
-OnlyController功能为使用手柄代替键盘/鼠标
+OnlyController aims to use Controller to use your computer instead of keyboard/mouse
 
-目前仅支持简单映射
+Currently only simple mappings are supported
 
-~~绝赞更新中  ✿✿ヽ(°▽°)ノ✿~~
 </div>
 
-## 安装
+## Installation
 
 ```shell
 $ git clone https://github.com/YohaneMashiro/OnlyController.git
@@ -35,29 +34,30 @@ $ cd OnlyController
 $ pip install -r requirements.txt
 ```
 
-## 现有功能
+## Existing Functionality
 
-**单向**映射
+**One-way** mapping
 
-| 手柄输入 | 映射     |
+| Controller input | Mapping     |
 | -------- | -------- |
-| A        | 鼠标左键 |
-| B | 鼠标右键 |
-| X | 左Ctrl |
-| 左摇杆 | 光标移动 |
+| A        | Left mouse button |
+| B | Right mouse button |
+| X | LeftCtrl |
+| LS | Cursor movement |
 
-## 使用
+## Usage
 
-### 1.直接运行
+### 1.Run directly
 
-如果上述功能已经满足需求，可以直接使用打包好的可执行程序(./dist/OnlyController.exe)
+If the above functions have met your needs, you can directly use the packaged executable program(./dist/OnlyController.exe)
 
-### 2.修改脚本
+### 2.Modify script
 
-通过简单地修改脚本，您可以
+By simply modifying the script, you can
 
-- 调整刷新率 -> 修改$frame\_delay$变量
-- 调整灵敏度 -> 修改$sensitivity$变量
-- 修改映射 -> 修改$handle\_button\_events$函数
+- Adjust refresh rate -> Modify variable $frame\_delay$ 
+- Adjust sensitivity -> Modify variable $sensitivity$
+- Modify mapping -> Modify function $handle\_button\_events$
 
-但是可执行程序并不会即时反映您的修改
+
+However, the executable program will not immediately reflect your modifications
