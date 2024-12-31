@@ -56,8 +56,8 @@ $ pip install -r requirements.txt
 
 通过简单地修改脚本，您可以
 
-- 调整刷新率 -> 修改$frame\_delay$变量
-- 调整灵敏度 -> 修改$sensitivity$变量
-- 修改映射 -> 修改$handle\_button\_events$函数
+- 调整刷新率 -> 修改frame_delay变量
+- 调整灵敏度 -> 修改sensitivity变量
+- 修改映射 -> 修改handle_button_events函数
 
 但是可执行程序并不会即时反映您的修改

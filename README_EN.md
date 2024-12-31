@@ -55,9 +55,9 @@ If the above functions have met your needs, you can directly use the packaged ex
 
 By simply modifying the script, you can
 
-- Adjust refresh rate -> Modify variable $frame\_delay$ 
-- Adjust sensitivity -> Modify variable $sensitivity$
-- Modify mapping -> Modify function $handle\_button\_events$
+- Adjust refresh rate -> Modify variable frame_delay$
+- Adjust sensitivity -> Modify variable sensitivity
+- Modify mapping -> Modify function handle_button_events
 
 
 However, the executable program will not immediately reflect your modifications
