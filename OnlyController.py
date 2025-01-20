@@ -86,6 +86,13 @@ def update_virtual_cursor_position(joystick, mouse):
         # Get the values from the left joystick (range -1 to 1)
         x_axis, y_axis = get_joystick_input(joystick)
 
+        # set a threshold to avoid jitter
+        threshold = 0.01
+        if abs(x_axis) < threshold :
+            x_axis = 0
+        if abs(y_axis) < threshold :
+            y_axis = 0
+
         # Map joystick input to virtual mouse movement
         move_x = x_axis * sensitivity
         move_y = y_axis * sensitivity
