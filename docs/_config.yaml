@@ -1,0 +1,34 @@
+title: WereBench
+description: A Benchmark for (Werewolf-style) Role Inference and Reasoning
+remote_theme: just-the-docs/just-the-docs
+
+# 项目页推荐设置这两项，确保资源路径正确
+url: https://YohaneMashiro.github.io
+baseurl: /OnlyContorller
+
+# 左上角 Logo、网站图标（可用占位后续替换）
+logo: /assets/logo.svg
+favicon_ico: /assets/logo.svg
+
+# 导航 / 外链（右上角）
+aux_links:
+  "📄 Paper (arXiv: 2510.11389)": "https://arxiv.org/pdf/2510.11389"
+  "🐙 GitHub Repo": "https://github.com/YohaneMashiro/OnlyContorller"
+  "🤗 HuggingFace Dataset": "https://huggingface.co/datasets/Yuan4629/WereBench"
+aux_links_new_tab: true
+
+# GitHub 编辑按钮（可从页面右上角直接跳转到仓库）
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/YohaneMashiro/OnlyContorller"
+gh_edit_branch: "main"
+gh_edit_source: "docs"
+gh_edit_view_mode: "tree"
+
+# 功能开关
+search_enabled: true
+heading_anchors: true
+
+# GitHub Pages 允许的插件（remote_theme 已内置）
+plugins:
+  - jekyll-seo-tag
